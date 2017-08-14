@@ -1,0 +1,256 @@
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Social sharing buttons and counters v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2017-04-12 07:46+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JC <info@josecarlosroman.com>\n"
+"Language-Team: JC <info@josecarlosroman.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: inc\n"
+
+#: inc/admin-page.php:18
+msgid "Buttons"
+msgstr "Botones"
+
+#: inc/admin-page.php:21
+msgid "Counters"
+msgstr "Contadores"
+
+#: inc/admin-page.php:38
+msgid "Social buttons"
+msgstr "Redes sociales"
+
+#: inc/admin-page.php:46
+msgid "Drop below the sharing buttons you want to add"
+msgstr "Arrastra abajo las redes sociales que quieres añadir"
+
+#: inc/admin-page.php:55
+msgid "Twitter username"
+msgstr "Usuario de Twitter"
+
+#: inc/admin-page.php:57
+msgid "username without @"
+msgstr "usuario sin la @"
+
+#: inc/admin-page.php:58
+msgid "Enter your username if you wanted it to be appended to the tweets"
+msgstr "Introduce tu nombre si quieres que sea añadido a los tweets"
+
+#: inc/admin-page.php:68
+msgid "Buttons text "
+msgstr "Textos en los botones"
+
+#: inc/admin-page.php:71 inc/admin-page.php:159
+msgid "Yes"
+msgstr "Sí"
+
+#: inc/admin-page.php:72 inc/admin-page.php:160
+msgid "No"
+msgstr "No"
+
+#: inc/admin-page.php:73
+msgid ""
+"Display social network names? You can hide them if you don't have enough "
+"room for the buttons"
+msgstr ""
+"¿Mostrar los nombres de las redes sociales? Puedes ocultarlos si necesitas "
+"espacio para los botones."
+
+#: inc/admin-page.php:79
+msgid "Buttons location"
+msgstr "Ubicación de los botones"
+
+#: inc/admin-page.php:83
+msgid "Before content"
+msgstr "Antes del contenido"
+
+#: inc/admin-page.php:84
+msgid "After content"
+msgstr "Después del contenido"
+
+#: inc/admin-page.php:91
+msgid "Add buttons to"
+msgstr "Añadir los botones a"
+
+#: inc/admin-page.php:110
+msgid "Sharing text"
+msgstr "Texto junto a los botones"
+
+#: inc/admin-page.php:114
+msgid "Share this!"
+msgstr "¡Compártelo!"
+
+#: inc/admin-page.php:115
+msgid ""
+"Left the field empty if you don't want to display a text before the sharing "
+"buttons"
+msgstr ""
+"Deja este campo vacío si no quieres mostrar ningín texto delante de los "
+"botones"
+
+#: inc/admin-page.php:122
+msgid "Sharing text position"
+msgstr "Posición del texto"
+
+#: inc/admin-page.php:126
+msgid "Left"
+msgstr "A la izquierda"
+
+#: inc/admin-page.php:127
+msgid "Above"
+msgstr "Arriba"
+
+#: inc/admin-page.php:133
+msgid "Sharing text weight"
+msgstr "Espesor del texto"
+
+#: inc/admin-page.php:157
+msgid "Display shares count?"
+msgstr "¿Mostrar contadores?"
+
+#: inc/admin-page.php:163
+msgid ""
+"<strong> Facebook shares counter: </strong> This counter will be updated "
+"every hour."
+msgstr ""
+"<strong> Contador de Facebook: </strong> Este contador se actualizará cada "
+"hora."
+
+#: inc/admin-page.php:166
+msgid ""
+"<strong> Twitter shares counter: </strong> On November 2015 Twitter took the "
+"shares count away from their API. This plugin uses the newsharecounts API, "
+"as most developers and WordPress plugins do."
+msgstr ""
+"<strong> Contador de Twitter: </strong> En Noviembre del 2016 Twitter retiró "
+"el contador de su API oficial. Este plugin usa la API de newsharecounts al "
+"igual que la mayoría de desarrolladores y demás plugins de WordPress."
+
+#: inc/admin-page.php:167
+msgid ""
+"<strong> Important! How to turn the Twitter shares count ON </strong> If you "
+"want to turn the twitter shares count ON you need to go to the <a href="
+"\"http://newsharecounts.com/\" target=\"_blank\"> newsharecounts page </a> "
+"and enter your website. Once you have followed the instructions the shares "
+"count for you website will be tracked. Easy as pie! (It may take a few days "
+"for everything to catch up and syncronize)"
+msgstr ""
+"<strong> ¡Importante! Cómo ACTIVAR el contador de Twitter </strong> Si "
+"quieres activar el contador de Twitter tienes que ir a <a href=\"http://"
+"newsharecounts.com/\" target=\"_blank\"> la página de newsharecounts </a>e "
+"introducir tu página Web. Una vez que hayas seguido las instrucciones se "
+"guardaran las veces que alguien comparta en tu página Web (el proceso de "
+"sincronización puede tardar unos días) "
+
+#: inc/admin-page.php:170
+msgid ""
+"<strong> WhatsApp shares counter: </strong> There is not an official way to "
+"track the WhatsApp shares so we're not offering this functionality now. We "
+"are working to add this functionality as soon as we can"
+msgstr ""
+"<strong> Contador de WhatsApp: </strong> No existe ninguna forma oficial de "
+"obtener el contador así que no ofrecemos esta funcionalidad por ahora. "
+"Estamos trabajando para añadirla lo antes posible."
+
+#: inc/admin-page.php:175
+msgid "Counter style"
+msgstr "Estilo del contador"
+
+#: inc/admin-page.php:179
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/admin-page.php:180
+msgid "Box-like"
+msgstr "Cuadrado"
+
+#: inc/admin-page.php:190
+msgid ""
+"The shortcode <strong>[jc_buttons]</strong> will render the sharing buttons "
+"as you have customised them in this page. Thanks to this shortcode you can "
+"place the buttons anywhere!"
+msgstr ""
+"El shortcode <strong>[jc_buttons]</strong> mostrará los botones tal y como "
+"los has configurado en esta página, ¡lo que te permitirá colocarlos "
+"practicamente en cualquier parte!"
+
+#: inc/admin-page.php:192
+msgid ""
+"The shortcode <strong>[jc-shares social=xxxx]</strong> will render the "
+"actual post/page shares count on the social network passed in (facebook, "
+"twitter, linkedin, googleplus, google-plus). You can also render any URL "
+"shares count by using the url parameter. For example, you can type in the WP "
+"editor: \"The http://whatever-page.com page has been shared [jc_shares "
+"social=xxxx url=http://whatever-page.com] times. Here are some examples for "
+"a random WordPress's blog post:"
+msgstr ""
+"El shortcode <strong>[jc-shares social=xxxx]</strong> mostrará las veces que "
+"se ha compartido la entrada o página en la que estés en la red social que se "
+"indique (facebook, twitter, linkedin, googleplus, google-plus). También "
+"puedes mostrar las veces que se ha compartido cualquier página indicando su "
+"URL. Por ejemplo, puedes introducir en el editor de WordPress: \"La página "
+"\"http://whatever-page.com ha sido compartida [jc_shares social=xxxx "
+"\"url=http://whatever-page.com] veces. Puedes ver ejemplos de una entrada "
+"aleatoria del blog de WordPress:"
+
+#: inc/admin-page.php:193
+msgid "renders 35 (as of the plugin development date)"
+msgstr "muestra 35 (cuando se estaba desarrollando este plugin)"
+
+#: inc/admin-page.php:194
+msgid "renders 29 (as of the plugin development date)"
+msgstr "muestra 29 (cuando se estaba desarrollando este plugin)"
+
+#: inc/admin-page.php:195
+msgid "renders 6 (as of the plugin development date)"
+msgstr "muestra 6 (cuando se estaba desarrollando este plugin)"
+
+#: inc/admin-page.php:196
+msgid "renders 3 (as of the plugin development date)"
+msgstr "muestra 3 (cuando se estaba desarrollando este plugin)"
+
+#~ msgid ""
+#~ "<strong> WhatsApp shares counter: </strong> There is not an official way "
+#~ "to track the WhatsApp shares so we're not offering this functionality "
+#~ "now. We want keep this plugin SEO-friendly and lightweight (workarounds "
+#~ "may add complexity, unnecesary requests and reduce speed). We are working "
+#~ "to add this functionality as soon as we can"
+#~ msgstr ""
+#~ "<strong> Contador de WhatsApp: </strong> No existe ninguna forma oficial "
+#~ "de obtener el contador así que no ofrecemos esta funcionalidad ahora. "
+#~ "Queremos que este plugin siga siendo SEO-friendly y ligero (soluciones no "
+#~ "oficiales pueden añadir complejidad, peticiones al servidor innecesarias "
+#~ "y reducir la velocidad de la página Web). Estamos trabajando para añadir "
+#~ "esta funcionalidad lo antes posible."
+
+#~ msgid ""
+#~ "The shortcode <strong>[jc-shares social=xxxx]</strong> will render the "
+#~ "actual post/page shares count on the social network passed in (facebook, "
+#~ "twitter, linkedin, googleplus, google-plus). You can also render any URL "
+#~ "shares count by using the url parameter. For example, you can type in the "
+#~ "WP editor: \"The http://whatever-page.com has been shared [jc_shares "
+#~ "social=xxxx url=http://whatever-page.com] times. Here are some examples "
+#~ "for a random WordPress's blog post:"
+#~ msgstr ""
+#~ "El shortcode <strong>[jc-shares social=xxxx]</strong> mostrará las veces "
+#~ "que se ha compartido la entrada o página en la que estás en la red social "
+#~ "que se indique (facebook, twitter, linkedin, googleplus, google-plus). "
+#~ "También puedes mostrar las veces que se ha compartido cualquier página "
+#~ "indicando su URL. Por ejemplo, puedes introducir en el editor de "
+#~ "WordPress: \"La página http://whatever-page.com ha sido compartida "
+#~ "[jc_shares social=xxxx url=http://whatever-page.com] veces. Puedes ver "
+#~ "ejemplos de una entrada aleatoria del blog de WordPress:"

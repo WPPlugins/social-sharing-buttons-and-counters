@@ -1,0 +1,35 @@
+#social-list ul, #social-selected ul
+{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+    min-width: 100px;   
+    min-height: 50px;
+}
+
+.social-list-item {
+    display:inline;
+}
+
+.social-list-item>li {
+    display: inline-block;
+    cursor: move;
+    padding: 16px 10px 10px 10px;
+}
+
+.jcss-card {
+    background-color: #777;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 5px 10px;
+}
+
+#social-selected .jcss-card {
+    background-color: green;
+    color: white;    
+}
+
+.jcss-radio label{ 
+    padding: 0px 10px 0px 0px;
+}

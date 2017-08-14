@@ -1,0 +1,38 @@
+#jcss-social-buttons { margin: 5px 0px; }
+
+#jcss-left-buttons { display: inline-block;  }
+
+#jcss-buttons-container a { display: inline-block; margin: 2px; font-family: inherit; color: #fff; text-decoration: none; vertical-align: middle;}
+
+.jcss-button { display: inline; color: #fff; padding: 5px 10px; border-radius: 3px; box-shadow: none !important; }
+.jcss-button:hover { opacity: 0.9; box-shadow: none !important; }
+
+#jcss-facebook {  background: #3B5998; }
+#jcss-facebook:before { content:"\f09a"; font-family: FontAwesome; font-size: 15px;  }
+
+#jcss-twitter {  background: #55ACEE; }
+#jcss-twitter:before { display: inline-block; content:"\f099"; font-family: FontAwesome; font-size: 15px;  }
+
+#jcss-googleplus {  background: #dd4b39;}
+#jcss-googleplus:before { content:"\f0d5"; font-family: FontAwesome; font-size: 15px;  }
+
+#jcss-linkedin {  background: #007bb5; }
+#jcss-linkedin:before { content:"\f0e1"; font-family: FontAwesome; font-size: 15px;  }
+
+#jcss-whatsapp {  background: #25D366; }
+#jcss-whatsapp:before { content:"\f232"; font-family: FontAwesome; font-size: 15px;  }
+
+#jcss-social-buttons span.jcss-social-name { color: #fff; }
+
+#jcss-social-buttons span.jcss-shares {margin-left: 5px; font-weight: bold; padding: 2px 5px; vertical-align: middle; }
+#jcss-social-buttons span.jcss-shares-box { background: #fff; border-radius: 2px; }
+
+#jcss-facebook span.jcss-shares-box {color: #3B5998; }
+#jcss-twitter span.jcss-shares-box {color: #55ACEE; }
+#jcss-googleplus span.jcss-shares-box {color: #dd4b39; }
+#jcss-linkedin span.jcss-shares-box {color: #007bb5; }
+#jcss-whatsapp span.jcss-shares-box {color: #25D366; }
+
+@media (max-width: 768px){
+    .jcss-social-name { display: none; }
+}
